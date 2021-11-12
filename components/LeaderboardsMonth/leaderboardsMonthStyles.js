@@ -4,8 +4,26 @@ const leaderboardsMonthStyles = {
     marginBottom: '10px'
   },
   title: {
-    marginTop: 0,
-    marginBottom: '11px',
+    marginTop: '30px',
+    marginBottom: '20px',
+    marginLeft: '-12px',
+    fontSize: '15px',
+    fontWeight: 500,
+    lineHeight: '140%',
+    color: '#241C24'
+  },
+  titleSecond: {
+    marginTop: '10px',
+    marginBottom: '20px',
+    marginLeft: '-12px',
+    fontSize: '15px',
+    fontWeight: 500,
+    lineHeight: '140%',
+    color: '#241C24'
+  },
+  titleLeader: {
+    marginTop: '-10px',
+    marginBottom: '0',
     marginLeft: '-12px',
     fontSize: '15px',
     fontWeight: 500,
@@ -31,6 +49,9 @@ const leaderboardsMonthStyles = {
     width: '100%',
     minWidth: '100%'
   },
+  results: {
+    marginTop: '-20px'
+  },
   name: {
     marginLeft: '-10px',
     marginBottom: '17px',
@@ -42,18 +63,22 @@ const leaderboardsMonthStyles = {
   },
   progressBar: {
     display: 'inline-block',
-    width: '71%',
+    width: '58%',
     maxWidth: '408px',
     marginRight: '6px',
     backgroundColor: '#E3E3E3'
   },
-  rubSymbol: {
+  amount: {
     display: 'inline-block',
-    width: '24px',
+    width: '17%',
     paddingLeft: '8px',
-    borderRadius: '50%',
-    backgroundColor: '#3290FF',
-    color: '#fff'
+    fontSize: '14px',
+    fontWeight: 300,
+    lineHeight: '140%',
+    color: '#241C24'
+  },
+  highlight: {
+    color: '#3290FF'
   }
 }
 

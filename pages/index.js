@@ -58,7 +58,6 @@ const Home = ({ data }) => {
     if (include) return item
   })
 
-  console.log(data)
   const twoMonthsInFromAugustSumUp = sumMonths(twoMonthsInFromAugust)
   const dataFromJulySumUp = sumMonths(dataFromJuly)
 

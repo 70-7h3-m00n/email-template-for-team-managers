@@ -3,7 +3,6 @@ import { Container, Row, Column, Image, Footer } from 'postonents'
 import { toNumberWithSpaces, getBestManagerResult } from '../../helpers'
 
 const Prize = ({ data }) => {
-  console.log(data);
 
   return (
     <>
@@ -16,14 +15,14 @@ const Prize = ({ data }) => {
             до конца года
           </h2>
           <p style={stls.prize}>iPhone 13 Pro</p>
-          <p style={stls.subtitle}>Лучший в гонке</p>
+          <p style={stls.subtitle}>Лидер гонки</p>
           <p style={stls.leader}>{getBestManagerResult(data).name}</p>
           <p style={stls.subtitle}>Сумма собранных продаж</p>
           <p style={stls.p}>
             {toNumberWithSpaces(getBestManagerResult(data).result)} руб.
           </p>
           <p style={stls.subtitle}>Время гонки</p>
-          <p style={stls.p}>июль-декабрь</p>
+          <p style={stls.p}>до 24 декабря</p>
         </Column>
         <Column></Column>
       </Row>

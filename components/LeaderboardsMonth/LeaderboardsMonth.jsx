@@ -109,7 +109,7 @@ const LeaderboardsMonth = ({ data }) => {
                     maxWidth: '100%'
                   }}>
                   &#x200B;
-                  <span style={stls.currentPrice}>{item.result}&#x20bd;</span>
+                  {/* <span style={stls.currentPrice}>{item.result}&#x20bd;</span> */}
                 </div>
               </div>
               <span style={stls.amount}>{toNumberWithSpaces(item.result)} &#x20bd;</span>

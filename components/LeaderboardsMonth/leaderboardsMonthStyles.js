@@ -79,17 +79,17 @@ const leaderboardsMonthStyles = {
   },
   highlight: {
     color: '#3290FF'
-  },
-  currentPrice: {
-    display: 'inline-block',
-    width: '100%',
-    // paddingLeft: '80%',
-    // marginLeft: '100%',
-    fontSize: '12px',
-    fontWeight: 300,
-    lineHeight: '140%',
-    color: '#241C24'
   }
+  // currentPrice: {
+  //   display: 'inline-block',
+  //   width: '100%',
+  //   // paddingLeft: '80%',
+  //   // marginLeft: '100%',
+  //   fontSize: '12px',
+  //   fontWeight: 300,
+  //   lineHeight: '140%',
+  //   color: '#241C24'
+  // }
 }
 
 export { leaderboardsMonthStyles }

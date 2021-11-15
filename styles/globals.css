@@ -6,6 +6,116 @@
 
 @font-face {
   font-display: swap;
+  font-family: 'Stem';
+  src: url('http://db.onlinewebfonts.com/t/478ee5574b65325cfc7cf2f42be6aedb.eot'); /* IE9*/
+  src: url('http://db.onlinewebfonts.com/t/478ee5574b65325cfc7cf2f42be6aedb.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */
+      url('http://db.onlinewebfonts.com/t/478ee5574b65325cfc7cf2f42be6aedb.woff2')
+      format('woff2'),
+    /* chrome firefox */
+      url('http://db.onlinewebfonts.com/t/478ee5574b65325cfc7cf2f42be6aedb.woff')
+      format('woff'),
+    /* chrome firefox */
+      url('http://db.onlinewebfonts.com/t/478ee5574b65325cfc7cf2f42be6aedb.ttf')
+      format('truetype'),
+    /* chrome firefox opera Safari, Android, iOS 4.2+*/
+      url('http://db.onlinewebfonts.com/t/478ee5574b65325cfc7cf2f42be6aedb.svg#Stem')
+      format('svg'); /* iOS 4.1- */
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Stem';
+  src: url('http://db.onlinewebfonts.com/t/01f6b7bcb162c58067f1f968902c2f17.eot'); /* IE9*/
+  src: url('http://db.onlinewebfonts.com/t/01f6b7bcb162c58067f1f968902c2f17.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */
+      url('http://db.onlinewebfonts.com/t/01f6b7bcb162c58067f1f968902c2f17.woff2')
+      format('woff2'),
+    /* chrome firefox */
+      url('http://db.onlinewebfonts.com/t/01f6b7bcb162c58067f1f968902c2f17.woff')
+      format('woff'),
+    /* chrome firefox */
+      url('http://db.onlinewebfonts.com/t/01f6b7bcb162c58067f1f968902c2f17.ttf')
+      format('truetype'),
+    /* chrome firefox opera Safari, Android, iOS 4.2+*/
+      url('http://db.onlinewebfonts.com/t/01f6b7bcb162c58067f1f968902c2f17.svg#Stem Light')
+      format('svg'); /* iOS 4.1- */
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Stem';
+  src: url('http://db.onlinewebfonts.com/t/02a6d67c0a77ba76bed26e214fd02932.eot'); /* IE9*/
+  src: url('http://db.onlinewebfonts.com/t/02a6d67c0a77ba76bed26e214fd02932.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */
+      url('http://db.onlinewebfonts.com/t/02a6d67c0a77ba76bed26e214fd02932.woff2')
+      format('woff2'),
+    /* chrome firefox */
+      url('http://db.onlinewebfonts.com/t/02a6d67c0a77ba76bed26e214fd02932.woff')
+      format('woff'),
+    /* chrome firefox */
+      url('http://db.onlinewebfonts.com/t/02a6d67c0a77ba76bed26e214fd02932.ttf')
+      format('truetype'),
+    /* chrome firefox opera Safari, Android, iOS 4.2+*/
+      url('http://db.onlinewebfonts.com/t/02a6d67c0a77ba76bed26e214fd02932.svg#Stem Bold')
+      format('svg'); /* iOS 4.1- */
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Stem';
+  src: url('http://db.onlinewebfonts.com/t/234c7114c6c8ddd5bba3c39f31dcb01f.eot'); /* IE9*/
+  src: url('http://db.onlinewebfonts.com/t/234c7114c6c8ddd5bba3c39f31dcb01f.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */
+      url('http://db.onlinewebfonts.com/t/234c7114c6c8ddd5bba3c39f31dcb01f.woff2')
+      format('woff2'),
+    /* chrome firefox */
+      url('http://db.onlinewebfonts.com/t/234c7114c6c8ddd5bba3c39f31dcb01f.woff')
+      format('woff'),
+    /* chrome firefox */
+      url('http://db.onlinewebfonts.com/t/234c7114c6c8ddd5bba3c39f31dcb01f.ttf')
+      format('truetype'),
+    /* chrome firefox opera Safari, Android, iOS 4.2+*/
+      url('http://db.onlinewebfonts.com/t/234c7114c6c8ddd5bba3c39f31dcb01f.svg#Stem Extra Light')
+      format('svg'); /* iOS 4.1- */
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Stem';
+  src: url('http://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.eot'); /* IE9*/
+  src: url('http://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */
+      url('http://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.woff2')
+      format('woff2'),
+    /* chrome firefox */
+      url('http://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.woff')
+      format('woff'),
+    /* chrome firefox */
+      url('http://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.ttf')
+      format('truetype'),
+    /* chrome firefox opera Safari, Android, iOS 4.2+*/
+      url('http://db.onlinewebfonts.com/t/0f20fd4113ce338b809530736f97afc5.svg#Stem Medium')
+      format('svg'); /* iOS 4.1- */
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* @font-face {
+  font-display: swap;
   font-family: Stem;
   src: local(Stem),
     url(//db.onlinewebfonts.com/c/234c7114c6c8ddd5bba3c39f31dcb01f?family=Stem+Extra+Light);
@@ -38,7 +148,7 @@
     url(//db.onlinewebfonts.com/c/02a6d67c0a77ba76bed26e214fd02932?family=Stem+Bold);
   font-style: normal;
   font-weight: 700;
-}
+} */
 
 /* html,
 body {

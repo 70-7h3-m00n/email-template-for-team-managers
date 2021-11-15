@@ -36,6 +36,7 @@ const LeaderboardsMonth = ({ data }) => {
     { name: '', result: 0, plan: 0 }
   )
 
+
   const teamTwoSum = dataTeamTwo.reduce(
     (acc, cur) => ({
       name: 'План второй группы',
@@ -69,7 +70,7 @@ const LeaderboardsMonth = ({ data }) => {
                     style={{
                       display: 'inline-block',
                       width:
-                        ((item.result / item.plan - 1) * 100)
+                        ((item.result / item.plan) * 100)
                           .toFixed(2)
                           .toString() + '%',
                       backgroundColor: '#3290FF',
@@ -78,7 +79,7 @@ const LeaderboardsMonth = ({ data }) => {
                     &#x200B;
                   </div>
                 </div>
-                <span style={stls.amount}>Цель <br /> {toNumberWithSpaces(item.result)} &#x20bd;</span>
+                <span style={stls.amount}>Цель <br /> {toNumberWithSpaces(item.plan)} &#x20bd;</span>
               </div>
             ))}
           </div>
@@ -133,7 +134,7 @@ const LeaderboardsMonth = ({ data }) => {
                     style={{
                       display: 'inline-block',
                       width:
-                        ((item.result / item.plan - 1) * 100)
+                        ((item.result / item.plan) * 100)
                           .toFixed(2)
                           .toString() + '%',
                       backgroundColor: '#3290FF',
@@ -142,7 +143,7 @@ const LeaderboardsMonth = ({ data }) => {
                     &#x200B;
                   </div>
                 </div>
-                <span style={stls.amount}>Цель <br /> {toNumberWithSpaces(item.result)} &#x20bd;</span>
+                <span style={stls.amount}>Цель <br /> {toNumberWithSpaces(item.plan)} &#x20bd;</span>
               </div>
             ))}
           </div>

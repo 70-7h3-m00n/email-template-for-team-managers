@@ -18,7 +18,7 @@ const bannerStyles = {
     height: '300px'
   },
   btn: {
-    marginTop: '7px',
+    marginTop: '64px',
     marginLeft: '40px',
     padding: '16px 54px',
     fontSize: '18px',

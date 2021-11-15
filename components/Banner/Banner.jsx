@@ -12,15 +12,13 @@ const Banner = () => {
     <Container alignment='center' style={stls.container}>
       <Row>
         <Column style={stls.column}>
-          {/* <h1 style={stls.title}>
-            Московский <br />
-            институт <br />
-            профессионального <br />
-            образования
+          <h1 style={stls.title}>
+            Премия <br />
+            НАНО «ИПО»  <br />
           </h1>
           <Link href={'https://ipo.msk.ru/'} style={stls.btn}>
             Перейти на сайт
-          </Link> */}
+          </Link>
         </Column>
       </Row>
     </Container>

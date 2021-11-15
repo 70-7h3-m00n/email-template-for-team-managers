@@ -104,8 +104,8 @@ const LeaderboardsMonth = ({ data }) => {
                     display: 'inline-block',
                     width:
                       Math.floor(
-                        item.result / bestResultOnePercentTeamOne
-                      ).toString() + '%',
+                        ((item.result / item.plan) * 100)
+                      ).toFixed(2).toString() + '%',
                     backgroundColor: '#3290FF',
                     maxWidth: '100%'
                   }}>
@@ -113,7 +113,7 @@ const LeaderboardsMonth = ({ data }) => {
                   {/* <span style={stls.currentPrice}>{item.result}&#x20bd;</span> */}
                 </div>
               </div>
-              <span style={stls.amount}>{toNumberWithSpaces(item.result)} &#x20bd;</span>
+              <span style={stls.amount}>{toNumberWithSpaces(item.plan)} &#x20bd;</span>
             </div>
           ))}
         </Column>
@@ -168,15 +168,15 @@ const LeaderboardsMonth = ({ data }) => {
                     display: 'inline-block',
                     width:
                       Math.floor(
-                        item.result / bestResultOnePercentTeamTwo
-                      ).toString() + '%',
+                        item.result / item.plan * 100
+                      ).toFixed(2).toString() + '%',
                     backgroundColor: '#3290FF',
                     maxWidth: '100%'
                   }}>
                   &#x200B;
                 </div>
               </div>
-              <span style={stls.amount}>{toNumberWithSpaces(item.result)} &#x20bd;</span>
+              <span style={stls.amount}>{toNumberWithSpaces(item.plan)} &#x20bd;</span>
             </div>
           ))}
         </Column>

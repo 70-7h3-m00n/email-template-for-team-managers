@@ -57,11 +57,14 @@ const winnerStyles = {
     marginBottom: '10px',
     marginLeft: '20px',
     fontSize: '14px',
-    fontWeight: 600,
+    fontWeight: 700,
     color: '#3290FF'
   },
   highlight: {
-    fontWeight: 500,
+    fontWeight: 700,
+    color: '#3290FF'
+  },
+  highlight2: {
     color: '#3290FF'
   }
 }

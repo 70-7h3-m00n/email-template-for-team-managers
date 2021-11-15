@@ -30,7 +30,7 @@ const Winner = ({ data }) => {
         <Column style={stls.column}>
           <h2 style={stls.title}>
             Премия за лучший результат <br /> группы,{' '}
-            <span style={stls.highlight}>мотивация + 0.5%</span>
+            <span style={stls.highlight2}>мотивация + 0.5%</span>
           </h2>
           <p style={stls.info}>
             Все участники группы, которая станет <span style={stls.highlight}>ЛИДЕРОМ МЕСЯЦА НОЯБРЬ</span>, получают

@@ -26,7 +26,7 @@ const leaderboardsMonthStyles = {
     marginBottom: '0',
     marginLeft: '-12px',
     fontSize: '15px',
-    fontWeight: 500,
+    fontWeight: 700,
     lineHeight: '140%',
     color: '#241C24'
   },

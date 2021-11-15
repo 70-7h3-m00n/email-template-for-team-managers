@@ -42,7 +42,7 @@ const leaderboardsSixMonthsStyles = {
   },
   progressBar: {
     display: 'inline-block',
-    width: '71%',
+    width: '58%',
     maxWidth: '408px',
     marginRight: '6px',
     backgroundColor: '#E3E3E3'
@@ -54,6 +54,15 @@ const leaderboardsSixMonthsStyles = {
     marginBottom: '-7px',
     backgroundImage:
       "url('https://res.cloudinary.com/mipinstitute/image/upload/v1630064265/temp%20ipo%20email/iphone_xesmtg.png')"
+  },
+  amount: {
+    display: 'inline-block',
+    width: '17%',
+    paddingLeft: '8px',
+    fontSize: '14px',
+    fontWeight: 300,
+    lineHeight: '140%',
+    color: '#241C24'
   }
 }
 

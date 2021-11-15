@@ -1,10 +1,12 @@
 import { leaderboardsSixMonthsStyles as stls } from './leaderboardsSixMonthsStyles'
 import { Container, Row, Column } from 'postonents'
-import { getBestManagerResult } from '../../helpers'
+import { getBestManagerResult, toNumberWithSpaces } from '../../helpers'
 
 const LeaderboardsSixMonths = ({ data }) => {
   const bestResult = getBestManagerResult(data).result
   const bestResultOnePercent = bestResult / 100
+
+  console.log(data);
 
   return (
     <Container alignment='center' style={stls.container}>
@@ -46,7 +48,9 @@ const LeaderboardsSixMonths = ({ data }) => {
                       &#x200B;
                     </div>
                   </div>
-                  <div style={stls.iPhoneIcon}></div>
+                  <div style={stls.amount}>
+                    {toNumberWithSpaces(item.result)} &#x20bd;
+                  </div>
                 </div>
               )
           )}

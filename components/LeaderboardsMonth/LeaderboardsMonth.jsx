@@ -79,7 +79,7 @@ const LeaderboardsMonth = ({ data }) => {
                     &#x200B;
                   </div>
                 </div>
-                <span style={stls.amount}>Цель <br /> {toNumberWithSpaces(item.plan)} &#x20bd;</span>
+                <span style={stls.amount}>{toNumberWithSpaces(item.result)} &#x20bd;</span>
               </div>
             ))}
           </div>
@@ -113,7 +113,7 @@ const LeaderboardsMonth = ({ data }) => {
                   {/* <span style={stls.currentPrice}>{item.result}&#x20bd;</span> */}
                 </div>
               </div>
-              <span style={stls.amount}>{toNumberWithSpaces(item.plan)} &#x20bd;</span>
+              <span style={stls.amount}>{toNumberWithSpaces(item.result)} &#x20bd;</span>
             </div>
           ))}
         </Column>
@@ -143,7 +143,7 @@ const LeaderboardsMonth = ({ data }) => {
                     &#x200B;
                   </div>
                 </div>
-                <span style={stls.amount}>Цель <br /> {toNumberWithSpaces(item.plan)} &#x20bd;</span>
+                <span style={stls.amount}>{toNumberWithSpaces(item.result)} &#x20bd;</span>
               </div>
             ))}
           </div>
@@ -176,7 +176,7 @@ const LeaderboardsMonth = ({ data }) => {
                   &#x200B;
                 </div>
               </div>
-              <span style={stls.amount}>{toNumberWithSpaces(item.plan)} &#x20bd;</span>
+              <span style={stls.amount}>{toNumberWithSpaces(item.result)} &#x20bd;</span>
             </div>
           ))}
         </Column>

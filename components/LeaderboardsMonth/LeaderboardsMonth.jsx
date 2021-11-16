@@ -60,7 +60,7 @@ const LeaderboardsMonth = ({ data }) => {
         </Column>
       </Row>
       <Row>
-        <Column>
+        <Column style={stls.fullWidth}>
           <div style={stls.results}>
             {[teamOneSum].map((item, idx) => (
               <div key={item.name + idx} style={stls.fullWidth}>
@@ -124,7 +124,7 @@ const LeaderboardsMonth = ({ data }) => {
         </Column>
       </Row>
       <Row>
-        <Column>
+        <Column style={stls.fullWidth}>
           <div style={stls.results}>
             {[teamTwoSum].map((item, idx) => (
               <div key={item.name + idx} style={stls.fullWidth}>

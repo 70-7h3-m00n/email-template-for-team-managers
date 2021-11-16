@@ -50,7 +50,8 @@ const leaderboardsMonthStyles = {
     minWidth: '100%'
   },
   results: {
-    marginTop: '-20px'
+    marginTop: '-20px',
+    width: '100%'
   },
   name: {
     marginLeft: '-10px',

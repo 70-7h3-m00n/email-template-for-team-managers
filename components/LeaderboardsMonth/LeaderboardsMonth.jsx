@@ -42,18 +42,19 @@ const LeaderboardsMonth = ({ data }) => {
   const teamTwoSum = dataTeamTwo.reduce(
     (acc, cur) => ({
       name: 'План второй группы',
-      result: acc.result + cur.result,
-      plan: acc.plan + cur.plan
+      result: +acc.result + +cur.result,
+      plan: +acc.plan + +cur.plan
     }),
     { name: '', result: 0, plan: 0 }
   )
-
+  console.log(dataTeamTwo)
   // console.log(dataTeamOne);
   // console.log(dataTeamTwo);
   // console.log(data)
-  console.log(teamOneSum)
+  // console.log(teamOneSum)
+  // console.log(teamTwoSum)
+  // console.log(teamOneSum.result / teamOneSum.plan)
   console.log(teamTwoSum)
-  console.log(teamOneSum.result / teamOneSum.plan)
   return (
     <Container alignment='center' style={stls.container}>
       <Row>

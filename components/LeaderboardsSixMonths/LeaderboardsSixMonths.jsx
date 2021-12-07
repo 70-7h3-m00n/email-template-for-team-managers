@@ -6,7 +6,7 @@ const LeaderboardsSixMonths = ({ data }) => {
   const bestResult = getBestManagerResult(data).result
   const bestResultOnePercent = bestResult / 100
 
-  console.log(data);
+  // console.log(data);
 
   return (
     <Container alignment='center' style={stls.container}>

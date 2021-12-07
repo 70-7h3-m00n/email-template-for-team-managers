@@ -8,20 +8,20 @@ import {
 } from '../../helpers'
 
 const Winner = ({ data }) => {
-
   const dataTeamOne = data.filter(
     item =>
-      item.name === 'Кубракова Виталина' ||
       item.name === 'Бурыкина Кристина' ||
-      item.name === 'Абдукодиров Санжар' ||
-      item.name === 'Крылова Мария'
+      item.name === 'Барыкина Юлия' ||
+      item.name === 'Салтыкова Юлия' ||
+      item.name === 'Сабуров Равшан'
   )
   const dataTeamTwo = data.filter(
     item =>
+      item.name === 'Абдукодиров Санжар' ||
       item.name === 'Жучкова Дарья' ||
       item.name === 'Сычев Константин' ||
-      item.name === 'Салтыкова Юлия' ||
-      item.name === 'Сабуров Равшан'
+      item.name === 'Голованов Дмитрий' ||
+      item.name === 'Захаров Артём'
   )
 
   return (
@@ -33,14 +33,18 @@ const Winner = ({ data }) => {
             <span style={stls.highlight2}>мотивация + 0.5%</span>
           </h2>
           <p style={stls.info}>
-            Все участники группы, которая станет <span style={stls.highlight}>ЛИДЕРОМ МЕСЯЦА НОЯБРЬ</span>, получают
-            дополнительные <span style={stls.highlight}>0,5%</span> <br /> к мотивации
+            Все участники группы, которая станет{' '}
+            <span style={stls.highlight}>ЛИДЕРОМ МЕСЯЦА НОЯБРЬ</span>, получают
+            дополнительные <span style={stls.highlight}>0,5%</span> <br /> к
+            мотивации
           </p>
           <p style={stls.subtitle}>Лидер гонки из первой группы </p>
-          <p style={stls.leader}>{dataTeamOne.sort((a, b) => b.result - a.result)[0].name}</p>
+          <p style={stls.leader}>
+            {dataTeamOne.sort((a, b) => b.result - a.result)[0].name}
+          </p>
           <p style={stls.subtitle}>Лидер гонки из второй группы </p>
           <p style={stls.leader}>
-          {dataTeamTwo.sort((a, b) => b.result - a.result)[0].name}
+            {dataTeamTwo.sort((a, b) => b.result - a.result)[0].name}
           </p>
         </Column>
       </Row>

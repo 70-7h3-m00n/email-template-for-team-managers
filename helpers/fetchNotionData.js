@@ -12,10 +12,12 @@ const fetchNotionData = async () => {
 
   const properties = notionData.results.map(item => item.properties)
 
-  const managerMonths = properties.map(item => item['Месяц'].select.name)
-  const managerNames = properties.map(item => item['Менеджер'].select.name)
-  const managerPlans = properties.map(item => item['План'].number)
-  const managerResults = properties.map(item => item['Результат'].number)
+  const managerMonths = properties.map(item => item['Месяц'].select?.name || '')
+  const managerNames = properties.map(
+    item => item['Менеджер'].select?.name || ''
+  )
+  const managerPlans = properties.map(item => item['План']?.number || '')
+  const managerResults = properties.map(item => item['Результат']?.number || '')
   const managerPlansAreCompleted = properties.map(
     item => item['План выполнен'].formula.boolean
   )

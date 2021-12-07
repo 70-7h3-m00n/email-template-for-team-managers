@@ -5,18 +5,20 @@ import { getBestManagerResult, toNumberWithSpaces } from '../../helpers'
 const LeaderboardsMonth = ({ data }) => {
   const dataTeamOne = data.filter(
     item =>
-      item.name === 'Бурыкина Кристина' ||
-      item.name === 'Барыкина Юлия' ||
-      item.name === 'Салтыкова Юлия' ||
-      item.name === 'Сабуров Равшан'
+      item &&
+      (item.name === 'Бурыкина Кристина' ||
+        item.name === 'Барыкина Юлия' ||
+        item.name === 'Салтыкова Юлия' ||
+        item.name === 'Сабуров Равшан')
   )
   const dataTeamTwo = data.filter(
     item =>
-      item.name === 'Абдукодиров Санжар' ||
-      item.name === 'Жучкова Дарья' ||
-      item.name === 'Сычев Константин' ||
-      item.name === 'Голованов Дмитрий' ||
-      item.name === 'Захаров Артём'
+      item &&
+      (item.name === 'Абдукодиров Санжар' ||
+        item.name === 'Жучкова Дарья' ||
+        item.name === 'Сычев Константин' ||
+        item.name === 'Голованов Дмитрий' ||
+        item.name === 'Захаров Артём')
   )
 
   const bestResult = getBestManagerResult(data).result

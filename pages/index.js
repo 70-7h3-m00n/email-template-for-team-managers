@@ -49,7 +49,7 @@ const Home = ({ data }) => {
   })
 
   const twoMonthsInFromAugust = data.filter(item => {
-    const months = ['Ноябрь']
+    const months = ['Декабрь']
 
     let include = false
     months.forEach(month => {

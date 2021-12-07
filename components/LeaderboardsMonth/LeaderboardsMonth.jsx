@@ -32,7 +32,7 @@ const LeaderboardsMonth = ({ data }) => {
 
   const teamOneSum = dataTeamOne.reduce(
     (acc, cur) => ({
-      name: 'План первой группы',
+      name: 'Текущий результат',
       result: acc.result + cur.result,
       plan: acc.plan + cur.plan
     }),
@@ -41,7 +41,7 @@ const LeaderboardsMonth = ({ data }) => {
 
   const teamTwoSum = dataTeamTwo.reduce(
     (acc, cur) => ({
-      name: 'План второй группы',
+      name: 'Текущий результат',
       result: +acc.result + +cur.result,
       plan: +acc.plan + +cur.plan
     }),
@@ -59,7 +59,7 @@ const LeaderboardsMonth = ({ data }) => {
     <Container alignment='center' style={stls.container}>
       <Row>
         <Column>
-          <h3 style={stls.title}>Общий план не менее 3 800 000 ₽</h3>
+          <h3 style={stls.title}>Общий план 3 800 000 ₽</h3>
         </Column>
       </Row>
       <Row>
@@ -127,7 +127,7 @@ const LeaderboardsMonth = ({ data }) => {
       </Row>
       <Row>
         <Column>
-          <h3 style={stls.titleSecond}>Общий план не менее 3 800 000 ₽</h3>
+          <h3 style={stls.titleSecond}>Общий план 3 800 000 ₽</h3>
         </Column>
       </Row>
       <Row>
